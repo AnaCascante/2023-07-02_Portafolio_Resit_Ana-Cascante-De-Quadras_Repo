@@ -1,0 +1,74 @@
+  
+/*---------------------*\
+     FONT FAMILIES  
+\* --------------------*/ 
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+  
+body {
+    background-color: lightblue;
+    font-family: 'Permanent Marker', cursive;
+}
+  
+  .container {
+    width: 90%;
+    height: 90%;
+    border: 4px solid black;
+    margin: 5%;
+    display:flex;
+  } 
+
+  .portrait {
+    display: flex;
+    width:fit-content;
+    height: fit-content;
+    width:30%;
+    height: 60%;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 20px 100px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.AnaCas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myName{
+    font-size: 300%;
+  }
+
+  .myName, .feu, .learner, .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .infofp1, .infofp2{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    justify-content: center;
+  }
+
+
+.fa-brands{
+  padding: 0 5%;
+  color: black;
+}
+
+.projects{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+}
+

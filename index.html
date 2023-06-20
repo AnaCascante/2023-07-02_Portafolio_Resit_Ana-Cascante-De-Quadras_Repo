@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="this is the home page for community museum website">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/b515e79b0f.js" crossorigin="anonymous"></script>
@@ -15,45 +17,77 @@
     <meta name="description" content="This is my portafolio as a front-end developer after one year of studies"/>
 </head>
 <body>
-    <div class="container frontpg">
-       <section class="infofp">
+    <div class="container">
+       <section class="infofp1">
         <div class="AnaCas">      
-            <img src="img/portrait2.jpg" alt="portrait" class="portraitFP"/>  
-            <h1 class="myName">ANA CASCANTE</h1>
+            <img src="img/portrait2.jpg" alt="portrait" class="portrait"/>  
         </div>
-        <div>
+        <div class="myinfo">
+            <h1 class="myName">ANA CASCANTE</h1>
             <h2 class="feu">FRONT-END DEVELOPER</h2>
-        </div>  
-            <div class="myinfo">
-                <h3 class="learner">Adventurous Learner</h3>
-                <p>I am an enthusiastic individual with a passion for learning, skill development, and embracing new challenges. Today, I invite you to join me on my journey starting this new adventure.</p>
-                <!--- make a .dev domain-next level portafolio -->
-                <div class="linksGL">
-                    <a href="https://github.com/AnaCascante">
-                    <i class="fa-brands fa-github fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
-                    <i class="fa-brands fa-linkedin fa-2x"></i></a>
-                </div>
+        </div>
+       </section>
+       <section class="infofp2">
+            <h3 class="learner">Adventurous Learner</h3>
+        |   <p class="description">I am an enthusiastic individual with a passion for learning, skill development, and embracing new challenges. Today, I invite you to join me on my journey starting this new adventure.</p>
+            <!--- make a .dev domain-next level portafolio -->
+            <div class="linksGL">
+            <a href="https://github.com/AnaCascante">
+            <i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+            <i class="fa-brands fa-linkedin fa-2x"></i></a>
+            </div>
             </div>
             <!--no need?? 
-        <h4><a href="projects.html" class="projects">PROJECTS</a></h4>-->
+        -->
     </section> 
-    <section class="halvLionLeft">
-        <div>
-            <img src="img/lion2left.jpg" alt="left halv lion face" class="lion2left"/>
-        </div> 
-    </section>  
     </div> 
-  
-    
 
-
-
-
-    <div class="container backpg">
-      <div>               
-            <h1 class="projects">Projects</h1>
-        </div>
+    <div class="projects">
+        <h4>PROJECTS</h4></div>
+    <div class="container">  
+        <section class="wrapper">
+            <div class="card">
+                <img src="img/cross-course-project.jpg" id="rainydays" alt="Screenshot Rainydays cross-course-project">
+                <div class="info">
+                    <h5 class="card-title">Rainydays</h5>
+                    <p>
+                        First project from the study, much to learn, loads to improve. This is still a work in process for me, I will continue working with this website. 
+                    </p>
+                    <div class="buttons">
+                        <a href="https://github.com/AnaCascante/htmlcss-ca-AnaCascante.git" class="rounded-btn"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://tourmaline-cactus-dc22c1.netlify.app" class="rounded-btn"><img src="img/netlify.png" class="icon netlify linkNRainydays"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/semesterproject1.jpg" id="seminarPjt" alt="Screenshot seminar project">
+                    <div class="info">
+                        <h5 class="card-title">Community Science Museum</h5>
+                        <p>
+                            Website for a science museum for middle school children and families with children. Museum with different expositions, activities and engagements. 
+                        </p>
+                    <div class="buttons">
+                        <a href="https://github.com/AnaCascante/2022-09-25_Semesterproject1_Ana_cascante_repo.git" class="rounded-btn"><i class="fa-brands fa-github"></a>
+                        <a href="https://animated-smakager-2e35a5.netlify.app/" class="rounded-btn netlify"><img src ="img/netlify.png"></a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card">
+                <img src="img/project-exam1.jpg" id="exam1" alt="Screenshot project exam 1">
+                <div class="info">
+                    <h5 class="card-title">Good food good mood </h5>
+                    <p>
+                        Website with healthy easy recipes.  For you how wants to eat well and save time in the kitchen. 
+                    </p>
+                    <div class="buttons">
+                        <a href="https://github.com/AnaCascante/2023-05-28_projectExam1_resit_Ana_Cascante.git" class="rounded-btn"><i class="fa-brands fa-github"></a>
+                        <a href="https://remarkable-chaja-3068ed.netlify.app/" class="rounded-btn netlify"><img src ="img/netlify.png"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
           
     </div>
        

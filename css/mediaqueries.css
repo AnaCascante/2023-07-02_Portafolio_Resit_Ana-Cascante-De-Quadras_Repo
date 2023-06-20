@@ -1,0 +1,89 @@
+
+/*--------------MEDIA QUERIES---------------*/ 
+
+@media only screen and (min-width: 0px) and (max-width: 1180px) {
+    
+    .container {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .infofp2 {
+        margin-top: 20px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .card .info {
+        opacity: 1;
+    }
+
+    .info p {
+        display: none;
+    }
+
+    .card:before {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    .container {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .infofp2 {
+        margin-top: 20px;
+    }
+
+
+    .card-title {
+        font-size: 1.5rem;
+        padding-bottom: 7%;
+    }
+
+    .card {
+        height: 350px;
+        width: 90%;
+    }
+
+    .rounded-btn {
+        font-size: 1rem;
+    }
+
+    .wrapper {
+        padding: 10% 0% 20%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+
+    .card {
+        height: 400px;
+        width: 80%;
+    }
+
+    .card .info {
+        padding-bottom: 15%;
+    }
+
+    .card-title {
+        padding-bottom: 5%;
+        font-size: 1.9rem;
+    }
+
+    .rounded-btn {
+        font-size: 1rem;
+    }
+}
