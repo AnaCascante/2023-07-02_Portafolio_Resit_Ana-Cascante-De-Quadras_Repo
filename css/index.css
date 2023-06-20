@@ -27,7 +27,6 @@ body {
     width:fit-content;
     height: fit-content;
     width:30%;
-    height: 60%;
     max-width: 100%;
     max-height: 100%;
     padding: 20px 100px;
@@ -59,8 +58,14 @@ body {
 
 
 .fa-brands{
-  padding: 0 5%;
+  margin: 0 20px;
   color: black;
+}
+
+.linksGL{
+  display:flex; 
+  justify-content: center;
+  align-items: center;
 }
 
 .projects{
