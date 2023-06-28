@@ -12,6 +12,7 @@ font-family: 'Work Sans', sans-serif;*/
 body {
     background-color: rgb(191, 238, 255);
     font-family: 'Permanent Marker', cursive;
+    
 }
   
   .container {
@@ -20,6 +21,7 @@ body {
     border: 4px solid black;
     margin: 5%;
     display:flex;
+
   } 
 
   .portrait {
