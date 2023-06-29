@@ -7,24 +7,30 @@ font-family: 'Fira Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Permanent Marker', cursive;
 font-family: 'PT Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;*/
+font-family: 'Work Sans', sans-serif;
+color on hover- color of the cards on hover - #16243E- to use on the font 
+*/
+
+
   
 body {
     background-color: rgb(191, 238, 255);
     font-family: 'Permanent Marker', cursive;
-    
+    color: #16243E; 
+
 }
-  
-  .container {
+
+.container {
+    background-color: aliceblue;
     width: 90%;
     height: 90%;
-    border: 4px solid black;
+    border: 4px solid #16243E;
+    border-radius: 10px;
     margin: 5%;
     display:flex;
-
   } 
 
-  .portrait {
+.portrait {
     display: flex;
     width:fit-content;
     height: fit-content;
@@ -49,6 +55,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
   .infofp1, .infofp2{
@@ -59,10 +66,21 @@ body {
   }
 
 
-.fa-brands{
+.fa-brands, .netlify {
   margin: 0 20px;
-  color: black;
+  color: #16243E;
+
+  
 }
+
+.fa-brands:hover, .netlify:hover {
+  color:#16243E;
+  opacity: 0.5;
+  font-size:3em;
+  transition: 1s ease-out;
+}
+
+
 
 .linksGL{
   display:flex; 
