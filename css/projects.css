@@ -110,3 +110,7 @@
     padding: 0;
     position: unset;
 }
+
+h5 {
+    font-size: 3em;
+}

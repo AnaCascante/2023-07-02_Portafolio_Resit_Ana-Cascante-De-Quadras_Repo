@@ -76,10 +76,11 @@ body {
 .fa-brands:hover, .netlify:hover {
   color:#16243E;
   opacity: 0.5;
-  font-size:3em;
-  transition: 1s ease-out;
 }
 
+/*
+font-size:3em;
+transition: 1s ease-out;*/
 
 
 .linksGL{
