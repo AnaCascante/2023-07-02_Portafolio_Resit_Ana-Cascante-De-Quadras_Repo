@@ -11,6 +11,8 @@
     .AnaCas{
         display: flex;
         flex-wrap: wrap;
+        max-width: 90%;¨
+        margin: 0 auto;
     }
 
     .infofp2 {
@@ -39,6 +41,10 @@
         opacity: 1;
     }
 }
+
+/*---------------------*\
+     MOBILE DEVICES
+\* --------------------*/ 
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
 
@@ -78,6 +84,10 @@
     }
 
 }
+
+/*---------------------*\
+     TABLET DEVICES
+\* --------------------*/ 
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
 
