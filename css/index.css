@@ -54,9 +54,7 @@ p{
     display: flex;
     width:fit-content;
     height: fit-content;
-    width:30%;
-    max-width: 100%;
-    max-height: auto;
+    width: 30%;
    /*padding: 20px 100px;*/
     border-radius: 50%;
 }
@@ -65,7 +63,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    height: 200px;
+}
 
   .myName{
     font-size: 300%;
