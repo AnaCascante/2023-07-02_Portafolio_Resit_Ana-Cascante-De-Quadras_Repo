@@ -46,3 +46,6 @@ I am grateful for the help given from the teachers in Noroff to get to understan
 
 Pictures used in this portafolio that are not privat are taken from:
 icon netlify: https://icons8.com/icons/set/netlify
+
+
+
