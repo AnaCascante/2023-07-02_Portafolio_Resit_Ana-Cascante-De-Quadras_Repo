@@ -18,6 +18,8 @@
         object-fit: cover;
     }
 
+    
+
     .infofp2 {
         margin-top: 20px;
     }
@@ -64,6 +66,11 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        object-fit: cover;
+    }
+
+    .portrait {
+        width: 30%;
     }
 
     .infofp2 {
@@ -119,5 +126,13 @@
         display: flex;
         flex-wrap: wrap;
         max-width: 70%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+    }
+
+    .portrait {
+        width: 30%;
     }
 }
