@@ -18,25 +18,27 @@ body {
     color: #16243E; 
     max-width: 1440px;
     width: 100%;
+    font-size: 18px;
 }
 
 h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1.6rem;
 }
 
 h2, h3, h4 {
-  font-size: 200%;
-  font-family: 'Permanent Marker', cursive;
+  font-size: 2.3rem;
+  font-family: 'Permanent Marker', sans-serif;
+  margin: 0;
 }
 
 h5 {
-  font-size: 200%;
+  font-size: 2rem;
   font-family: 'Fira Sans', sans-serif;
 }
 
-
 p{
-  font-size: large;
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
@@ -63,28 +65,35 @@ p{
 .infofp1, .infofp2 {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 
-/*
+.infofp1 {
+  width: 60%;
+}
 
+.infofp2 {
+  width: 40%;
+}
 
-  .myName{
-    font-size: 300%;
-  }
+.linksGL {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
 
-  .myName, .feu, .learner, .description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.icons {
+  color: #16243E;
+}
+
+.icons:hover {
+  color:#16243E;
+  opacity: 0.5;
+  transform: scale(1.1);
+  transition: .3s;
 }
 
 .fa-brands, .netlify {
-  margin: 0 20px;
   color: #16243E;
-
-  
 }
 
 .fa-brands:hover, .netlify:hover {
@@ -92,20 +101,9 @@ p{
   opacity: 0.5;
 }
 
-/*
-font-size:3em;
-transition: 1s ease-out;*/
-
-
-.linksGL{
-  display:flex; 
-  justify-content: center;
-  align-items: center;
-}
-
 .projects{
   display: flex;
   justify-content: center;
-  font-size: 150%;
+  margin: 5% 0%;
 }
 
