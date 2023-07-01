@@ -51,6 +51,7 @@
     .AnaCas{
         display: flex;
         flex-wrap: wrap;
+        max-width: 90%;
     }
 
     .infofp2 {
@@ -96,5 +97,11 @@
 
     .rounded-btn {
         font-size: 1rem;
+    }
+
+    .AnaCas{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 70%;
     }
 }
