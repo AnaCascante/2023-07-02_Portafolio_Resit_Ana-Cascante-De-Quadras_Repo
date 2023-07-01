@@ -52,8 +52,6 @@ p{
 
 .portrait {
     display: flex;
-    width:fit-content;
-    height: fit-content;
     width: 30%;
    /*padding: 20px 100px;*/
     border-radius: 50%;
