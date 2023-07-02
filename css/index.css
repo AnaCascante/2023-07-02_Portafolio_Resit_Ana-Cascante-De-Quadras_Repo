@@ -7,77 +7,105 @@ font-family: 'Fira Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Permanent Marker', cursive;
 font-family: 'PT Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;*/
+font-family: 'Work Sans', sans-serif;
+color on hover- color of the cards on hover - #16243E- to use on the font 
+*/
   
 body {
     background-color: rgb(191, 238, 255);
-    font-family: 'Permanent Marker', cursive;
+    color: #16243E; 
+    max-width: 1440px;
+    width: 100%;
+    font-size: 18px;
 }
-  
-  .container {
+
+h1 {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1.8rem;
+  margin: 4% 0% 0%;
+}
+
+h2, h3, h4 {
+  font-size: 2rem;
+  font-family: 'Permanent Marker', sans-serif;
+  margin: 0;
+}
+
+h5 {
+  font-size: 2rem;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p{
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+    background-color: aliceblue;
     width: 90%;
     height: 90%;
-    border: 4px solid black;
-    margin: 5%;
-    display:flex;
-  } 
-
-  .portrait {
+    border: 4px solid #16243E;
+    border-radius: 10px;
+    margin: 0 auto;
     display: flex;
-    width:fit-content;
-    height: fit-content;
-    width:30%;
-    max-width: 100%;
-    max-height: 100%;
-    padding: 20px 100px;
-    border-radius: 50%;
-}
-
-.AnaCas{
-    display: flex;
+    padding: 5% 10%;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    gap: 50px;
   }
-
-  .myName{
-    font-size: 300%;
-  }
-
-  .myName, .feu, .learner, .description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+.portrait {
+  height: 250px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-  .infofp1, .infofp2{
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-    justify-content: center;
-  }
-
-
-.fa-brands{
-  margin: 0 20px;
-  color: black;
+.infofp1, .infofp2 {
+  display: flex;
+  flex-direction: column;
 }
 
-.linksGL{
-  display:flex; 
-  justify-content: center;
-  align-items: center;
+.infofp1 {
+  width: 45%;
+}
+
+.infofp2 {
+  width: 45%;
+}
+
+.linksGL {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.icons {
+  color: #16243E;
+}
+
+.icons:hover {
+  color:#16243E;
+  opacity: 0.5;
+  transform: scale(1.1);
+  transition: .3s;
+}
+
+.fa-brands, .netlify {
+  color: #16243E;
+}
+
+.fa-brands:hover, .netlify:hover {
+  color:#16243E;
+  opacity: 0.5;
 }
 
 .projects{
   display: flex;
   justify-content: center;
-  font-size: 150%;
+  margin: 5% 0%;
 }
 
-p{
-  font-size: large;
-}
-
-h5 {
-  font-size: 200%;
-}

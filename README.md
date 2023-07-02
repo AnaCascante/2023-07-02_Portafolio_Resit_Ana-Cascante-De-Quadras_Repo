@@ -1,5 +1,3 @@
-# portafolio_Ana-Cascante-redo
-start again! 
 # Portafolio
 
 ![Alt text](img/lion2.jpg)
@@ -27,17 +25,19 @@ You will be creating a README.md file at the root of each of these projects and 
 
 ### Installing
 
-Here is a link to my project in Github: 
 ```$ git clone https://github.com/AnaCascante/portafolio_Ana-Cascante-redo.git```
 
-And a link to the livedemo side: https://joyful-paletas-6a04df.netlify.app
+
+## Visit the side: 
+
+Link to the livedemo side: https://joyful-paletas-6a04df.netlify.app
 
 
 ## Contact
 
 Github: https://github.com/AnaCascante
 
-Linkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+Linkedin: https://www.linkedin.com/in/ana-cascante-de-quadras-4301521a/
 
 
 ## Acknowledgments
@@ -46,3 +46,6 @@ I am grateful for the help given from the teachers in Noroff to get to understan
 
 Pictures used in this portafolio that are not privat are taken from:
 icon netlify: https://icons8.com/icons/set/netlify
+
+
+
